@@ -30,7 +30,7 @@ if game.PlaceId == 6284583030 then
     Tab:AddButton({
         Name = "Click To Start Dupe",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/dsdsdsd/main/info.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
           end    
     })    
     
