@@ -14,13 +14,6 @@ if game.PlaceId == 6284583030 then
     
     Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
 
-    Tab:AddButton({
-        Name = "Button!",
-        Callback = function()
-            loadstring(game:HttpGet("https://discord.gg/QVqBv5T9s9"))()
-          end    
-    })
-
       local Tab = Window:MakeTab({
         Name = "Dupe",
         Icon = "rbxassetid://4483345998",
