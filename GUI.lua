@@ -22,7 +22,7 @@ local OrionLib = {
 			TextDark = Color3.fromRGB(150, 150, 150)
 		}
 	},
-	SelectedTheme = "BloodTheme",
+	SelectedTheme = "Default",
 	Folder = nil,
 	SaveCfg = false
 }
