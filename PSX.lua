@@ -14,13 +14,6 @@ if game.PlaceId == 6284583030 then
     
     Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
 
-    Tab:AddButton({
-        Name = "Button!",
-        Callback = function()
-            loadstring(game:HttpGet("https://discord.gg/QVqBv5T9s9"))()
-          end    
-    })
-
       local Tab = Window:MakeTab({
         Name = "Dupe",
         Icon = "rbxassetid://4483345998",
@@ -61,7 +54,7 @@ if game.PlaceId == 6284583030 then
 
     local Section = Tab:AddSection({
 	Name = "Trade Scam Section"
-})
+    })
 
     Tab:AddToggle({
         Name = "Trade Scam",
@@ -76,7 +69,7 @@ if game.PlaceId == 6284583030 then
 	Callback = function()
         print(Value)
   	end    
-})
+    })
 
 
 
