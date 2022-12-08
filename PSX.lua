@@ -68,5 +68,11 @@ local Tab = Window:MakeTab({
   	end    
     })
     
+       local Tab = Window:MakeTab({
+        Name = "Settings",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
     
 
