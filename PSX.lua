@@ -2,11 +2,24 @@ if game.PlaceId == 6284583030 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
+    local Tab = Window:MakeTab({
+        Name = "Credits",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    local Section = Tab:AddSection({
+        Name = "Credits"
+    })
+    
+    Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
+
       local Tab = Window:MakeTab({
         Name = "Dupe",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
+    
     
     Tab:AddLabel("DUPE STATUS:WORKING")
 
@@ -48,17 +61,6 @@ if game.PlaceId == 6284583030 then
   	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "Credits"
-})
-
-Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
 
 
 
