@@ -1,9 +1,9 @@
 if game.PlaceId == 6284583030 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-
+    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    
     local Tab = Window:MakeTab({
-        Name = "Credits",
+        Name = "Info",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
@@ -32,8 +32,18 @@ if game.PlaceId == 6284583030 then
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/dsdsdsd/main/info.lua"))()
           end    
+    })    
+    
+    Tab:AddTextbox({
+        Name = "Rename all pets",
+        Default = "Text Goes here",
+        TextDisappear = true,
+        Callback = function(Value)
+            print(Value)
+        end	  
     })
     
+
     local Tab = Window:MakeTab({
         Name = "Trade Scam",
         Icon = "rbxassetid://4483345998",
@@ -55,7 +65,7 @@ if game.PlaceId == 6284583030 then
     })
 
     Tab:AddButton({
-	Name = "Visual Trade Pet",
+	Name = "Remove Trade Pet",
 	Callback = function()
       		print("button pressed")
   	end    
