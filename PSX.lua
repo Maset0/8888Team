@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE V3.7", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "[⚡ANIME] UPDATE - PSX SCAM TRADE PRIVATE V3.7", HidePremium = false, SaveConfig = true, IntroText = 8888 Team, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "Info",
@@ -179,6 +179,12 @@ local Tab = Window:MakeTab({
 
     Tab:AddParagraph("8888 Team Discord","Coming Soon!)
 
+    OrionLib:MakeNotification({
+        Name = "8888 Teams Welcome's You!",
+        Content = "Version 3.7",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
 
 
     OrionLib:Init()
