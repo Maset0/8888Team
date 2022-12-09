@@ -5,7 +5,7 @@
  |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
  |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
          \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.1.6) ~  Much Love, Ferib 
+          \_Welcome to LuaObfuscator.net   (Alpha 0.1.6) ~  Much Love, Ferib 
 
 ]]--
 
