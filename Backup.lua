@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "[✨SHINY] UPDATE - PSX PRIVATE V3.8", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "8888 Team - PSX PRIVATE V3.8", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "Info",
@@ -21,7 +21,7 @@ local Tab = Window:MakeTab({
         Name = "Update info"
     })
     
-     Tab:AddParagraph("[✨SHINY] UPDATE","Version 3.8")
+     Tab:AddParagraph("[SHINY] UPDATE","Version 3.8")
      
      local Tab = Window:MakeTab({
         Name = "Dupe",
