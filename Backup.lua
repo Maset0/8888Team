@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "8888 Team - PSX PRIVATE V3.8", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "8888 Team - PSX PRIVATE V3.9", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "Info",
@@ -21,7 +21,7 @@ local Tab = Window:MakeTab({
         Name = "Update info"
     })
     
-     Tab:AddParagraph("[SHINY] UPDATE","Version 3.8")
+     Tab:AddParagraph("[SHINY] UPDATE","Version 3.9")
      
      local Tab = Window:MakeTab({
         Name = "Dupe",
@@ -93,21 +93,13 @@ local Tab = Window:MakeTab({
     })
     
     Tab:AddButton({
-        Name = "ON",
+        Name = "Trading Scam - BETA 1.1",
         Default = false,
         Callback = function(Value)
              loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/main/info.lua"))()
         end    
     })
-    
-    Tab:AddButton({
-        Name = "OFF",
-        Default = false,
-        Callback = function(Value)
-            print("button pressed")
-        end    
-    })
-    
+        
     local Section = Tab:AddSection({
         Name = "Trade Scam Options"
     })
@@ -172,7 +164,7 @@ local Tab = Window:MakeTab({
     
        OrionLib:MakeNotification({
         Name = "8888 Teams Welcome's You!",
-        Content = "Version 3.8 ",
+        Content = "Version 3.9 ",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
