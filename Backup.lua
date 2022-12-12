@@ -25,7 +25,7 @@ local Tab = Window:MakeTab({
         Name = "Update info"
     }
 
-    Tab:AddParagraph("[⚡ANIME] UPDATE","Version 3.7")
+    Tab:AddParagraph("[⚡ANIME] UPDATE","Version 4.0")
 
       local Tab = Window:MakeTab({
         Name = "Dupe Script",
@@ -181,7 +181,7 @@ local Tab = Window:MakeTab({
 
     OrionLib:MakeNotification({
         Name = "8888 Teams Welcome's You!",
-        Content = "Version 3.7",
+        Content = "Version 4.0",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
