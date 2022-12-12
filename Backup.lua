@@ -40,7 +40,7 @@ local Tab = Window:MakeTab({
     Tab:AddButton({
         Name = "(RISK) Start Dupe",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/8888Team/main/info1.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Maset0/PSX/Scripts/info1.lua"))()
           end    
     })
     
